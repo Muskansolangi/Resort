@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Montserrat,sans-serif;}
+
+.container{
+max-width: 1150px;
+margin: auto;
+    
+}
+
+header{ height: 780px;
+    padding-top: 40px;
+background-image: url(../Images/header-bg.jpg);
+background-size: cover;}
+
+nav ul {margin-left:50% ;
+height: 100px;
+}
+
+nav ul li {list-style-type: none;
+display: inline;
+}
+
+nav ul li a {text-decoration: none;
+color: white;
+padding: 10px;
+position: relative;
+font-size: 14px;
+}
+
+.active::after{content:"";
+    background-color: white;
+    height: 2px;
+    width: 100%;        /*applying width 100 percent so it can covers the anchor's width*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+h6{color: white;
+font-size: 15px;}
+
+h1{color: white;
+font-size: 60px;
+margin: 20px 10px 10px 0}
+
+.button{border-radius: 20px;
+color: black;
+background-color: white;
+padding: 10px 30px 10px 30px;
+font-size: 15px;
+margin-top: 20px;
+transition: 0.3s;}
+
+.button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}

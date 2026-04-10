@@ -1,0 +1,94 @@
+
+*{padding: 0;
+margin: 0;}
+
+.pic{
+    width: 300px;
+    height: 450px;
+    background-image:url(../Images/Profile_-_Rapunzel.jpg.webp);
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+margin: auto;
+}
+
+
+.rupenzel{
+width: 300px;
+height: 450px;
+margin-top: 450px;
+transition: 1s;
+color: white;
+box-sizing: border-box;
+background-color: rgba(142, 84, 197, 0.26);
+}
+
+.pic:hover .rupenzel{
+    margin-top: 0;
+}
+
+
+.flower1{width: 300px;
+height: 450px;
+background-image: url(../Images/flower1.jpg);
+background-size: cover;
+border-radius: 10px;
+margin-left: 300px;
+float: left;
+overflow: hidden;
+}
+.flower2{
+    width: 300px;
+height: 450px;
+margin-left:-300px;
+background-image: url(../Images/flower2.jpg);
+border-radius: 10px;
+background-size: cover;
+transition: 1s;
+color: white;
+}
+.flower1:hover .flower2{margin-left: 0;}
+
+.lantern1{height: 450px;
+width: 300px;
+background-image: url(../Images/lantern2.jpg);
+border-radius: 10px;
+background-repeat: no-repeat;
+background-size: cover;
+float: right;
+margin-right: 300px;
+overflow: hidden;}
+
+.lantern2{height: 450px;
+width: 300px;
+background-image: url(../Images/lantern2.webp);
+background-size: cover;
+margin-left:300px ;
+border-radius: 10px;
+transition: 1s;}
+
+.lantern1:hover .lantern2{margin-left: 0;}
+
+.maximus1{width: 300px;
+height: 450px;
+background-image: url(../Images/maximus1.jfif);
+margin-top: 450px;
+float: right;
+margin-right: 30px;
+background-repeat: no-repeat;
+background-size:cover ;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.maximus2{height: 450px;
+width: 300px;
+background-image: url(../Images/maximus2.jpg);
+margin-top: -470px;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;
+transition: 1s;
+color: grey;
+}
+.maximus1:hover .maximus2{margin-top: 0;}
