@@ -178,7 +178,15 @@ margin-top: 80px;}
 width: 300px;
 background-color: white;
 box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+transition: 0.5s;
 
+}
+.discrpt:hover{
+    background-color: #222222;
+    color: white;
+}
+.discrpt:hover  h3{
+    color: white;
 }
 
 
@@ -210,6 +218,7 @@ height: 100%;
     position: relative;
     top: -50px;
 box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+transition: 0.5s;
 }
 
 .discrpt1 h3{color: black;
@@ -219,6 +228,9 @@ font-family: "Old Standard TT", serif;
 font-weight: 100;
 color: rgba(0, 0, 0, 0.8);
 margin-top: 50px;}
+
+.discrpt1:hover {background-color: #222222;}
+.discrpt1:hover h3{color: white;}
 
 .discrpt1 p{color: #656561;
 text-align: center;
@@ -274,7 +286,7 @@ margin-bottom: 100px;}
 justify-content: space-between;
 margin-bottom: 100px;}
 
-.serves a{padding: 60px 60px 60px 20px;
+.serves a{padding: 40px 60px 30px 25px;
 background-color: white;
 border-radius: 90px 90px 90px 0px;
 
@@ -287,6 +299,12 @@ transition: 0.3s}
 
 .serves :hover{background-color: #c5a880;
 color: white;}
+
+.serves i{font-size: 60px;
+margin-left: 20px;
+padding: 10px;}
+
+
 
 figure{width: 100%;
     height: 220px;
@@ -304,9 +322,8 @@ figure >div{
 }
 .main{position: relative;
 z-index: 1;
-
-width: 45%;
-margin-left: 230px;
+width: 61%;
+    margin-left: -65px;
 }
 
 .main1{display: flex;
@@ -335,7 +352,10 @@ font-weight: 700;
 margin-left: 40px;
 }
 
-.BN{margin-top: 50px;}
+.BN{margin-top: 50px;
+    position: relative;
+    top: -119px;
+    left: 340px;}
 
 
 
@@ -362,7 +382,7 @@ gap: 20px;
 }
 
 .cards{
-    height: 430px;
+    /* height: 530px; */
 text-align: center;
 display: inline;
 width: 430px;
@@ -373,10 +393,12 @@ box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
 
 
 .cards div{width: 430px;
-height: 600px;
+    height: 280px;
 background-color:white;
 padding-top: 50px;
 }
+
+
 
 .cards div > a{color: black;
 font-family:  "Old Standard TT", serif;
@@ -384,9 +406,23 @@ font-size: 28px;
 
 }
 
-.cards img{width: 100%;
-height: 300px;
-background-size: cover;}
+.cardimage1{
+    width: 100%;
+    background-image: url(../Images/WhatsApp\ Image\ 2026-04-10\ at\ 11.51.20\ AM.jpeg);
+    background-repeat: no-repeat;
+}
+
+.cardimage2{
+    width: 100%;
+    background-image: url(../Images/WhatsApp\ Image\ 2026-04-10\ at\ 11.51.20\ AM\ \(1\).jpeg);
+    background-repeat: no-repeat;
+}
+
+.cardimage3{
+    width: 100%;
+    background-image: url(../Images/WhatsApp\ Image\ 2026-04-10\ at\ 11.51.21\ AM.jpeg);
+    background-repeat: no-repeat;
+}
 
 .room3 p{font-size: 17px;
 font-family: "Nunito", sans-serif ;
@@ -408,6 +444,8 @@ border-radius: 2px;
 margin-left: 20px;}
 
 main{height: 1000px;}
+
+
 
 
 summary{height: 600px;
@@ -451,9 +489,120 @@ color: white;
 margin-top: 19px;
 margin-left: 16px;}
 
-.resto h1 {color: #6e614f;
-    background-color: aqua;
-height: 500px;
-width: 400px;
+
+
+
+
+
+.resto h4 {color:#c5a880;
+    text-align: center;
+    font-size: 17px;
+    font-family:"Nunito", sans-serif ;
+text-align: center;
+margin-top: 130px;
 
 }
+
+.resto h1{font-family:  "Old Standard TT", serif;
+color:rgba(0, 0, 0, 0.8);
+font-size: 60px;
+text-align: center;
+font-weight: 100;
+margin-bottom: 50px;
+
+}
+
+
+
+.menu img{width: 630px;
+height: 650px;
+background-size: cover;
+margin-bottom: 100px;
+margin-left: 15px;
+}
+
+.pic{display: flex;
+position: relative;}
+
+.menu .grey{height: 650px;
+width: 630px;
+background-color: #222222a1;
+position: absolute;
+margin-left: 15px;
+}
+
+.grey i{font-size: 60px;
+color: white;
+background-color: #c5a880;
+padding: 35px 50px;
+display: flex;
+justify-content: center;
+position: relative;
+left: 90%;
+top: 40%;
+border-radius: 5px;
+}
+
+.menu1{
+margin-left: 45px;
+height: 650px;
+display: flex;
+flex-wrap: wrap;}
+
+.menu1 > div{
+width: 400px;
+height: 155px;
+background-color: white;
+margin-left: 15px;}
+
+.meal{display: flex;
+align-items: center;
+
+}
+
+.meal img{
+    width: 80px;
+height: 80px;
+margin-bottom: 0;
+border-radius: 50%;
+
+
+}
+
+.meal h3{font-family: "Nunito", sans-serif ;
+font-size: 20px;
+margin: auto;
+color: #222222;
+font-weight: 400;
+width: 170px;
+}
+
+.meal h4{color: #c5a880;
+font-family: "Nunito", sans-serif ;
+font-size: 20px;
+font-weight: 400;
+margin: auto;
+}
+
+
+.testimonial h4{font-family: "Nunito", sans-serif;
+color: #c5a880;
+font-size: 15px;
+text-align: center;
+margin-top: 200px;
+}
+
+.testimonial h1{font-family:  "Old Standard TT", serif;
+color:rgba(0, 0, 0, 0.8);
+font-size: 60px;
+text-align: center;
+font-weight: 100;
+margin-bottom: 50px;}
+
+.customfeed{
+    display: flex;
+    width: 100%;}
+
+.feedback{height: 200px;
+width: 300px;
+background-color: #c5a880;}
