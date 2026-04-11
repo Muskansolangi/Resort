@@ -640,7 +640,7 @@ background-size: cover;
 .person .img3{
     width: 90px;             
 height: 90px;
-background-image: url(./../../Resort/Images/person_3.jpg);
+background-image: url(../Images/person_3.jpg);
 border-radius: 50%;
 background-size: cover;
 }
