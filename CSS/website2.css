@@ -748,8 +748,8 @@ font-weight: 200;}
 color: #656561;
 line-height: 22px;}
 
-.gallery{background-color: rgb(168, 202, 98);
-height: 280px;
+.gallery{
+height: 250px;
 margin-top: 150px;
 display: flex;
 gap: 5px;
@@ -762,7 +762,8 @@ background-color: tomato;}
 .pic1{background-image: url(../Images/gallery-1.jpg);
 height: 230px;
 width: 290px;
-background-size: cover;}
+background-size: cover;
+position: relative;}
 
 .pic2{background-image: url(../Images/gallery-2.jpg);
 height: 230px;
@@ -787,10 +788,89 @@ background-size: cover;}
 .pic1 .overlay{background-color: #222222bd;
     height: 230px;
 width: 290px;
-
-
+position: absolute;
+transition: 0.5s;
 }
 
-.pic1:hover {background-color: #222222bd;
-    height: 230px;
-width: 290px;}
+.pic1:hover .overlay{background-color: #222222bd;
+    }
+
+
+
+
+    footer{background-color: #222222;
+    height: 400px;
+}
+
+.info{display: flex;
+gap: 10px;}
+
+.info div{height: 280px;
+
+width: 310px;
+margin-right: 10px;
+margin-top: 100px;}
+
+.info p{margin-top: 20px;
+font-family: "Nunito", sans-serif;
+color: #656561;}
+
+.info i{color: #c5a880;
+    margin-top: 20px;
+}
+.info span a{background-color: #262626;
+padding: 8px;
+margin: 5px;
+border-radius: 3px;
+}
+
+.info .services{
+display: flex;
+flex-direction: column;
+}
+
+.services .point{margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services .point a{font-family:"Nunito", sans-serif;
+color: #656561;
+font-weight: 700;
+}
+
+.side ul{margin-right: 30px;}
+.side ul li{margin-top: 10px;
+margin-left: 10px;
+}
+
+.side li a:hover{color: #c5a880;}           /*here i need to clear my concept about before and after*/
+.side li:hover{color: #c5a880;}
+
+.services .side{display: flex;
+margin: 10px}
+
+.info h2{margin-top: 10px;
+font-family: "Nunito", sans-serif;
+color: white;
+}
+
+.contact span{
+    display: flex;
+}
+
+.contact span i{font-size: 20px;
+margin-left: 10px;}
+
+.contact span p{margin-left: 15px;
+font-size: 15px;
+font-weight: 600;
+}
+
+.contact span a{background-color: transparent;
+margin-top: 10px;
+font-family: "Nunito", sans-serif;
+color:#656561;
+font-weight: 600;}
+
+
