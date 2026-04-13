@@ -571,6 +571,13 @@ align-items: center;
 
 }
 
+.meal:hover{background-color: #222222;
+}
+
+
+.meal:hover h3{color: white;}
+
+
 .meal img{
     width: 80px;
 height: 80px;
@@ -866,6 +873,7 @@ margin: 10px}
 .info h2{margin-top: 10px;
 font-family: "Nunito", sans-serif;
 color: white;
+margin-left: 15px;
 }
 
 .contact span{
