@@ -398,12 +398,23 @@ background-color:white;
 padding-top: 50px;
 }
 
+.cover{
+    width: 430px;
+    height: 547px !important;
+    background-color: black !important;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.cards:hover .cover{
+    opacity: 0.3;
+}
 
 
 .cards div > a{color: black;
 font-family:  "Old Standard TT", serif;
 font-size: 28px;
-
 }
 
 .cardimage1{
@@ -439,7 +450,7 @@ margin-bottom: 50px;
 
 .cards div h4 a{color:black ;
 padding: 7px 9px;
-border: 1px solid #656561;
+border: 1px solid #70702d;
 border-radius: 2px;
 margin-left: 20px;}
 
@@ -844,6 +855,8 @@ font-weight: 700;
 margin-left: 10px;
 }
 
+.side ul li{list-style-type: none;}
+
 .side li a:hover{color: #c5a880;}           /*here i need to clear my concept about before and after*/
 .side li:hover{color: #c5a880;}
 
@@ -864,13 +877,14 @@ margin-left: 10px;}
 
 .contact span p{margin-left: 15px;
 font-size: 15px;
-font-weight: 600;
+font-weight: 700;
+color: #797878;
 }
 
 .contact span a{background-color: transparent;
 margin-top: 10px;
 font-family: "Nunito", sans-serif;
-color:#656561;
-font-weight: 600;}
+color:#797878;
+font-weight: 700;}
 
 
